@@ -1,0 +1,14 @@
+[project]
+name = "packetlens"
+version = "0.1.0"
+description = "DPI engine - deep packet inspection (Python)"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "pytest>=7.0.0",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+addopts = "-v"
